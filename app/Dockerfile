@@ -1,5 +1,5 @@
 # イメージのベースを指定する
-FROM php:7.4.1-fpm
+FROM php:8.3-fpm
 
 # php.iniをコピー
 COPY ./app/php.ini /usr/local/etc/app/php.ini
